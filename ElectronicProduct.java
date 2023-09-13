@@ -1,4 +1,4 @@
-public class ElectronicProduct extends Product{
+public class ElectronicProduct extends Product<Object>{
 
     String name;
     double price;
@@ -19,7 +19,7 @@ public class ElectronicProduct extends Product{
     }
 
     @Override
-    public String toString(){
+    public String toString(){ // Alter how object is displayed for testing purposes
         return this.name + " " + this.price;
     }
 
