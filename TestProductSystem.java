@@ -5,7 +5,7 @@ public class TestProductSystem {
     public static void main(String[] args) {
         
         // central inventory storage
-        StoreInventory<Product> storage = new StoreInventory<>();
+        StoreInventory<Product<Object>> storage = new StoreInventory<>();
 
         // add variety of products
         ElectronicProduct mouse = new ElectronicProduct("mouse", 10.0, 5);
