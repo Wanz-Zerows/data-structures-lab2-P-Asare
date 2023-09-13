@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class StoreInventory<E extends Product> {
+public class StoreInventory<E extends Product<Object>> {
     
     public ArrayList<E> store = new ArrayList<>();
 
